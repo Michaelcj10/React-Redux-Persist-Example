@@ -1,0 +1,29 @@
+body{
+    font-family: Roboto;
+}
+
+.sidebar {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+
+  }
+  
+  .item {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    opacity: 0;
+    margin-bottom: 10px;
+    transform-origin-y: 0%;
+    color: #333;
+  }
+
+
+  .app-content{
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+  }
