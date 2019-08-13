@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import { history } from "./store/store";
 import Home from "../src/containers/home/index";
-import App from "./containers/app/";
+import {App} from "./containers/app/";
 import { PersistGate } from 'redux-persist/integration/react';
 import { Route } from "react-router-dom";
 const target = document.querySelector("#root");

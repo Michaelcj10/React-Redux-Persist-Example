@@ -36,6 +36,7 @@ export class Home extends React.Component {
             placeholder="XXXX XXXX XXXX XXXX"
             onChange={this.onCardNumberChange}
             inputProps={{ maxLength: 16 }}
+            value={this.props.cardNumber}
           />
           </Grid>
         </Grid>
